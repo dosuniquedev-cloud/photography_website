@@ -2,7 +2,7 @@
   "name": "dolchut_website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://YOUR_GITHUB_USERNAME.github.io/dolchut_website",
+  "homepage": "https://github.com/dosuniquedev-cloud/photography_website",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
