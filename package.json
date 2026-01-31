@@ -2,7 +2,7 @@
   "name": "photography_website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/dosuniquedev-cloud/photography_website",
+  "homepage": "https://dosuniquedev-cloud.github.io/photography_website",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
