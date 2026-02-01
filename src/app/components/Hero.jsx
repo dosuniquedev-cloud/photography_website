@@ -12,22 +12,24 @@ import "swiper/css/navigation";
 // Your custom CSS for the dots (optional, keeps it clean)
 import "./Hero.css";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 const slides = [
     {
         id: 1,
-        image: "/images/1.jpg",
+        image: `${basePath}/images/1.jpg`,
         title: "Mountain Mist",
         subtitle: "Capture the serene beauty of the highlands."
     },
     {
         id: 2,
-        image: "/images/2.jpg",
+        image: `${basePath}/images/2.jpg`,
         title: "Wild Spirits",
         subtitle: "Nature in its rawest, most beautiful form."
     },
     {
         id: 3,
-        image: "/images/3.jpg",
+        image: `${basePath}/images/3.jpg`,
         title: "Urban Life",
         subtitle: "The hustle and bustle of city lights."
     },
