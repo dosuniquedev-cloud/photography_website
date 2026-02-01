@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
 export default function Navbar() {
+    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
     const [isOpen, setIsOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
 
@@ -42,7 +43,7 @@ export default function Navbar() {
                         {/* Logo Image - Shrinks on Scroll */}
                         <div className={`relative transition-all duration-500 ${scrolled ? 'h-14 w-14' : 'h-20 w-20'}`}>
                             <Image
-                                src="/images/dolchut_logo.png"
+                                src={`${basePath}/images/dolchut_logo.png`}
                                 alt="Dolchut Logo"
                                 fill
                                 className="object-contain drop-shadow-md"
