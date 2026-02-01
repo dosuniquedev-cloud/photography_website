@@ -2,6 +2,9 @@
 const isProd = process.env.NODE_ENV === 'production';
 const nextConfig = {
   basePath: isProd ? '/photography_website' : '',
+  env: {
+    BASE_PATH: isProd ? '/photography_website' : '',
+  },
   output: 'export',
 
   images: {
