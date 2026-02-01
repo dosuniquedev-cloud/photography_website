@@ -2,13 +2,15 @@
 import ThreeDPhoto from './ThreeDPhoto';
 import { motion } from 'framer-motion';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 const images = [
-    { id: 1, title: "Mountain Mist", src: "/images/1.jpg" },
-    { id: 2, title: "Urban Life", src: "/images/2.jpg" },
-    { id: 3, title: "Wild Fox", src: "/images/3.jpg" },
-    { id: 4, title: "Ocean Blue", src: "/images/4.jpg" },
-    { id: 5, title: "Starry Night", src: "/images/5.jpg" },
-    { id: 6, title: "Desert Sands", src: "/images/6.jpg" },
+    { id: 1, title: "Mountain Mist", src: `${basePath}/images/1.jpg` },
+    { id: 2, title: "Urban Life", src: `${basePath}/images/2.jpg` },
+    { id: 3, title: "Wild Fox", src: `${basePath}/images/3.jpg` },
+    { id: 4, title: "Ocean Blue", src: `${basePath}/images/4.jpg` },
+    { id: 5, title: "Starry Night", src: `${basePath}/images/5.jpg` },
+    { id: 6, title: "Desert Sands", src: `${basePath}/images/6.jpg` },
 ];
 
 export default function Gallery() {
