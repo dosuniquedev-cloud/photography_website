@@ -13,7 +13,7 @@ export default function Home() {
 
       {/* Simple Footer */}
       <footer className="bg-gray-900 text-white py-8 text-center">
-        <p>© 2026 North Bengal Photography Club. All rights reserved.</p>
+        <p>© 2026 Photography Club. All rights reserved.</p>
       </footer>
     </main>
   );
